@@ -63,22 +63,22 @@ The goal is to understand how complaints evolve over time and space and identify
 
 *Figure 4: Heatmap showing the spatial distribution of noise complaints in NYC*
 
-<p align="justify">Heatmap for food related complains in relation to the borough showed that the most frequent complain is food establishment in the Manhattan area.
+- <p align="justify">Heatmap for food related complains in relation to the borough showed that the most frequent complain is food establishment in the Manhattan area.
 <img src="figure/Food Related Complaint Types vs Borough Heatmap.png" width="500">
 
 *Figure 5: Heatmap showing the spatial distribution of food complaints in NYC*
 
-<p align="justify">Heatmap for sanitation related complains in relation to the borough showed that the most frequent complain is about rodent and filed in the Brooklyn area.
+- <p align="justify">Heatmap for sanitation related complains in relation to the borough showed that the most frequent complain is about rodent and filed in the Brooklyn area.
 <img src="figure/Sanitation Related Complaint Types vs Borough Heatmap.png" width="500">
 
 *Figure 6: Heatmap showing the spatial distribution of sanitation complaints in NYC*
 
-<p align="justify">Heatmap for parking related complains in relation to the borough showed that the most frequent complain is illegal parking and filed in the Brooklyn area.
+- <p align="justify">Heatmap for parking related complains in relation to the borough showed that the most frequent complain is illegal parking and filed in the Brooklyn area.
 <img src="figure/Parking Related Complaint Types vs Borough Heatmap.png" width="500">
 
 *Figure 7: Heatmap showing the spatial distribution of parking complaints in NYC*
 
-<p align="justify">Heatmap for other category complains in relation to the borough showed that the most frequent complain is street condition and filed in the Queens area.
+- <p align="justify">Heatmap for other category complains in relation to the borough showed that the most frequent complain is street condition and filed in the Queens area.
 <img src="figure/Other Complaint Types vs Borough Heatmap.png" width="500">
 
 *Figure 8: Heatmap showing the spatial distribution of other complaints in NYC*
@@ -94,22 +94,22 @@ The goal is to understand how complaints evolve over time and space and identify
 - **Normalized comparison of 311 service complaints:** <p align="justify">Raw complaint counts can be misleading. For example:
 Brooklyn might have the most total complaints, but if its population is also the largest, that doesn’t necessarily mean it has more problems.
 The following bar graph corrects for that by adjusting for population size.
-<img src="figure/Complaints per 100,000 Residents by Borough.png" width="500">*Figure 10: Normalized complaints count by borough*
+<img src="figure/Complaints per 100,000 Residents by Borough.png" width="500">
+*Figure 10: Normalized complaints count by borough*
 
 - **Top complaints across all years:** <p align="justify">Pie chart showed that the top six cpmplaints out of all 17 complaints.
-<img src="figure/Top Complaint Types (All Years).png" width="500">*Figure 11: Top complaints accross the years*
+<img src="figure/Top Complaint Types (All Years).png" width="500">
+*Figure 11: Top complaints accross the years*
 
 - **Unsolved complaints:**<p align="justify">Even though there are a lot of complained filed over the years, it showed that many of the complaints were not solved yet. The bar chart showed taht the most unsolved complain is Homeless person assistance.
-<img src="figure/Top Complaint Types Missing Closed Date.png" width="500">*Figure 12: Unsolved complaints accross the years*
+<img src="figure/Top Complaint Types Missing Closed Date.png" width="500">
+*Figure 12: Unsolved complaints accross the years*
 
 ## 🌐 Interactive Complaint Maps
 
 Explore complaint clusters across New York City using the interactive maps below. Each map is grouped by year and displays complaint details via clickable popups. Markers have been sampled (max 300/year) for performance.
 
 - <p align="justify">Geographical Heatmaps: Complaints plotted over NYC map (using latitude/longitude) to show hotspots for common complaints.
-
-> 💡 **Click any map title below to open the interactive HTML map.**
-
 ---
 
 ### 🔊 Noise-Related Complaints

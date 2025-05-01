@@ -88,21 +88,26 @@ The goal is to understand how complaints evolve over time and space and identify
 **C. Complaint Distribution**
 - **Complaints distribution by borough:**
     <p align="justify">It showed that most and least number of complaints were filed in the Brooklyn and Staten Island area, respectively, regardless of the complaint category.
-<img src="figure/Complaint Count by Borough.png" width="500">*Figure 9: Complaints count by borough* 
+<img src="figure/Complaint Count by Borough.png" width="500">
+
+*Figure 9: Complaints count by borough* 
 
 
 - **Normalized comparison of 311 service complaints:** <p align="justify">Raw complaint counts can be misleading. For example:
 Brooklyn might have the most total complaints, but if its population is also the largest, that doesn’t necessarily mean it has more problems.
 The following bar graph corrects for that by adjusting for population size.
 <img src="figure/Complaints per 100,000 Residents by Borough.png" width="500">
+
 *Figure 10: Normalized complaints count by borough*
 
 - **Top complaints across all years:** <p align="justify">Pie chart showed that the top six cpmplaints out of all 17 complaints.
 <img src="figure/Top Complaint Types (All Years).png" width="500">
+
 *Figure 11: Top complaints accross the years*
 
 - **Unsolved complaints:**<p align="justify">Even though there are a lot of complained filed over the years, it showed that many of the complaints were not solved yet. The bar chart showed taht the most unsolved complain is Homeless person assistance.
 <img src="figure/Top Complaint Types Missing Closed Date.png" width="500">
+
 *Figure 12: Unsolved complaints accross the years*
 
 ## 🌐 Interactive Complaint Maps

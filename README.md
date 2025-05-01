@@ -42,9 +42,8 @@ The goal is to understand how complaints evolve over time and space and identify
 **A. Year-by-Year Complaint Comparison**
 
 - <p align="justify">Line Charts showing the total number of complaints each year. Figure 1 showed that the complaints are increasing with the year. Even though it is showing least complaints observed in the current years; however, it is understandable that the data was collected only until the month of April.
-<img src="figure/Total 311 Complaints Per Year (2015–2025).png" width="500">
+<img src="figure/Total 311 Complaints Per Year (2015–2025).png" width="500"> *Figure 1: Total number of complaints each year*
 
-*Figure 1: Total number of complaints each year*
 - <p align="justify">Grouped Bar Charts breaking down complaints by category each year. It showed that the most frequent complain is noise accross the year except 2023.
 <img src="figure/Grouped Bar Chart Complaints by Category per Year (2015–2025).png" width="500">
 
@@ -58,61 +57,49 @@ The goal is to understand how complaints evolve over time and space and identify
 
 - <p align="justify">Heatmap of Complaint Types: Show frequency of each complaint type across years.
     - <p align="justify">Heatmap for noise complains in relation to the borough showed that the most complains were files in the Broanx area and most prominet type of noise is the residential noise.
+<img src="figure/Noise Complaint Types vs Borough Heatmap.png" width="500">
 
-    <img src="figure/Noise Complaint Types vs Borough Heatmap.png" width="500">
+*Figure 4: Heatmap showing the spatial distribution of noise complaints in NYC*
 
-    *Figure 4: Heatmap showing the spatial distribution of noise complaints in NYC*
+<p align="justify">Heatmap for food related complains in relation to the borough showed that the most frequent complain is food establishment in the Manhattan area.
 
-    - <p align="justify">Heatmap for food related complains in relation to the borough showed that the most frequent complain is food establishment in the Manhattan area.
-    <img src="figure/Food Related Complaint Types vs Borough Heatmap.png" width="500">
+<img src="figure/Food Related Complaint Types vs Borough Heatmap.png" width="500">
 
-    *Figure 5: Heatmap showing the spatial distribution of food complaints in NYC*
+*Figure 5: Heatmap showing the spatial distribution of food complaints in NYC*
 
-    - <p align="justify">Heatmap for sanitation related complains in relation to the borough showed that the most frequent complain is about rodent and filed in the Brooklyn area.
-    <img src="figure/Sanitation Related Complaint Types vs Borough Heatmap.png" width="500">
+<p align="justify">Heatmap for sanitation related complains in relation to the borough showed that the most frequent complain is about rodent and filed in the Brooklyn area.
+<img src="figure/Sanitation Related Complaint Types vs Borough Heatmap.png" width="500">
 
-    *Figure 6: Heatmap showing the spatial distribution of sanitation complaints in NYC*
+*Figure 6: Heatmap showing the spatial distribution of sanitation complaints in NYC*
 
-    - <p align="justify">Heatmap for parking related complains in relation to the borough showed that the most frequent complain is illegal parking and filed in the Brooklyn area.
-    <img src="figure/Parking Related Complaint Types vs Borough Heatmap.png" width="500">
+<p align="justify">Heatmap for parking related complains in relation to the borough showed that the most frequent complain is illegal parking and filed in the Brooklyn area.
+<img src="figure/Parking Related Complaint Types vs Borough Heatmap.png" width="500">
 
-    *Figure 7: Heatmap showing the spatial distribution of parking complaints in NYC*
+*Figure 7: Heatmap showing the spatial distribution of parking complaints in NYC*
 
-    - <p align="justify">Heatmap for other category complains in relation to the borough showed that the most frequent complain is street condition and filed in the Queens area.
-    <img src="figure/Other Complaint Types vs Borough Heatmap.png" width="500">
+<p align="justify">Heatmap for other category complains in relation to the borough showed that the most frequent complain is street condition and filed in the Queens area.
+<img src="figure/Other Complaint Types vs Borough Heatmap.png" width="500">
 
-    *Figure 8: Heatmap showing the spatial distribution of other complaints in NYC*
+*Figure 8: Heatmap showing the spatial distribution of other complaints in NYC*
 
 
 
 **C. Complaint Distribution**
 - **Complaints distribution by borough:**
     <p align="justify">It showed that most and least number of complaints were filed in the Brooklyn and Staten Island area, respectively, regardless of the complaint category.
-
-    <img src="figure/Complaint Count by Borough.png" width="500">
-
-    *Figure 9: Complaints count by borough* 
+<img src="figure/Complaint Count by Borough.png" width="500">*Figure 9: Complaints count by borough* 
 
 
 - **Normalized comparison of 311 service complaints:** <p align="justify">Raw complaint counts can be misleading. For example:
 Brooklyn might have the most total complaints, but if its population is also the largest, that doesn’t necessarily mean it has more problems.
 The following bar graph corrects for that by adjusting for population size.
-
-<img src="figure/Complaints per 100,000 Residents by Borough.png" width="500">
-
-*Figure 10: Normalized complaints count by borough*
+<img src="figure/Complaints per 100,000 Residents by Borough.png" width="500">*Figure 10: Normalized complaints count by borough*
 
 - **Top complaints across all years:** <p align="justify">Pie chart showed that the top six cpmplaints out of all 17 complaints.
-
-<img src="figure/Top Complaint Types (All Years).png" width="500">
-
-*Figure 11: Top complaints accross the years*
+<img src="figure/Top Complaint Types (All Years).png" width="500">*Figure 11: Top complaints accross the years*
 
 - **Unsolved complaints:**<p align="justify">Even though there are a lot of complained filed over the years, it showed that many of the complaints were not solved yet. The bar chart showed taht the most unsolved complain is Homeless person assistance.
-
-<img src="figure/Top Complaint Types Missing Closed Date.png" width="500">
-
-*Figure 12: Unsolved complaints accross the years*
+<img src="figure/Top Complaint Types Missing Closed Date.png" width="500">*Figure 12: Unsolved complaints accross the years*
 
 ## 🌐 Interactive Complaint Maps
 
@@ -125,15 +112,13 @@ Explore complaint clusters across New York City using the interactive maps below
 ---
 
 ### 🔊 Noise-Related Complaints
-[🗺️ View Map](noise_complaints_cluster_popup_map.html)  
-Includes: `Noise`, `Noise - Residential`, `Noise - Commercial`, `Noise - Street/Sidewalk`, `Noise - Vehicle`, `Noise - Park`
+ Includes: `Noise`, `Noise - Residential`, `Noise - Commercial`, `Noise - Street/Sidewalk`, `Noise - Vehicle`, `Noise - Park`
 
 📁 **File**: `noise_complaints_cluster_popup_map.html`
 
 ---
 
-### 🍽️ Food-Related Complaints
-[🗺️ View Map](food_complaints_cluster_popup_map.html)  
+### 🍽️ Food-Related Complaints 
 Includes: `Food Establishment`, `Food Poisoning`, `Rodent`
 
 📁 **File**: `food_complaints_cluster_popup_map.html`
@@ -141,23 +126,20 @@ Includes: `Food Establishment`, `Food Poisoning`, `Rodent`
 ---
 
 ### 🧹 Sanitation-Related Complaints
-[🗺️ View Map](sanitation_complaints_cluster_popup_map.html)  
 Includes: `Sanitation Condition`, `Graffiti`
 
 📁 **File**: `sanitation_complaints_cluster_popup_map.html`
 
 ---
 
-### 🚗 Parking & Street Complaints
-[🗺️ View Map](parking_complaints_cluster_popup_map.html)  
+### 🚗 Parking & Street Complaints 
 Includes: `Illegal Parking`, `Blocked Driveway`, `Street Condition`
 
 📁 **File**: `parking_complaints_cluster_popup_map.html`
 
 ---
 
-### 📦 Other Complaints
-[🗺️ View Map](other_complaints_cluster_popup_map.html)  
+### 📦 Other Complaints 
 Includes: `Lost Property`, `Animal Abuse`, `Homeless Person Assistance`
 
 📁 **File**: `other_complaints_cluster_popup_map.html`

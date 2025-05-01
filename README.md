@@ -42,7 +42,9 @@ The goal is to understand how complaints evolve over time and space and identify
 **A. Year-by-Year Complaint Comparison**
 
 - <p align="justify">Line Charts showing the total number of complaints each year. Figure 1 showed that the complaints are increasing with the year. Even though it is showing least complaints observed in the current years; however, it is understandable that the data was collected only until the month of April.
-<img src="figure/Total 311 Complaints Per Year (2015–2025).png" width="500"> *Figure 1: Total number of complaints each year*
+<img src="figure/Total 311 Complaints Per Year (2015–2025).png" width="500">
+
+*Figure 1: Total number of complaints each year*
 
 - <p align="justify">Grouped Bar Charts breaking down complaints by category each year. It showed that the most frequent complain is noise accross the year except 2023.
 <img src="figure/Grouped Bar Chart Complaints by Category per Year (2015–2025).png" width="500">
@@ -62,7 +64,6 @@ The goal is to understand how complaints evolve over time and space and identify
 *Figure 4: Heatmap showing the spatial distribution of noise complaints in NYC*
 
 <p align="justify">Heatmap for food related complains in relation to the borough showed that the most frequent complain is food establishment in the Manhattan area.
-
 <img src="figure/Food Related Complaint Types vs Borough Heatmap.png" width="500">
 
 *Figure 5: Heatmap showing the spatial distribution of food complaints in NYC*
